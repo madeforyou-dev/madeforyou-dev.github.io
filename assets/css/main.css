@@ -148,6 +148,7 @@ h6 {
 
 .header .logo {
   line-height: 1;
+  text-align: center;
 }
 
 .header .logo img {
@@ -177,6 +178,7 @@ h6 {
   margin: 0;
   border-radius: 50px;
   transition: 0.3s;
+  text-align: center;
 }
 
 .header .btn-getstarted:hover,
@@ -1416,6 +1418,9 @@ section,
   gap: 30px;
   margin-bottom: 35px;
   padding: 25px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
@@ -1449,6 +1454,7 @@ section,
 .about .action-buttons {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
 }
@@ -2556,6 +2562,7 @@ section,
 .why-us .process-timeline .timeline-steps .timeline-step .step-info strong {
   display: block;
   font-size: 14px;
+  min-width: 100px;
   color: var(--heading-color);
 }
 
@@ -5885,6 +5892,7 @@ section,
   width: 56px;
   height: 56px;
   display: flex;
+  min-width: 56px;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), transparent 30%));
